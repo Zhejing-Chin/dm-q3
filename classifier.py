@@ -45,7 +45,7 @@ def write():
 
 		X_fs = pd.read_csv('SelectedFeatures_dataframe.csv')
 
-		st.text('\n\nTotal Number of Top Features based on RFECV are {}}'.format(X_fs.shape[1]))
+		st.text('\n\nTotal Number of Top Features based on RFECV are {}'.format(X_fs.shape[1]))
 
 
 		#---------------------------------------------------
