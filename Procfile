@@ -1,1 +1,1 @@
-web: streamlit run --server.enableCORS false dmproject.py
+web: sh setup.sh && streamlit run demoproject.py
