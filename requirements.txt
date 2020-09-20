@@ -4,11 +4,12 @@ argon2-cffi==20.1.0
 astor==0.8.1
 async-generator==1.10
 attrs==20.2.0
-awesome_streamlit==20200728.1
+awesome-streamlit==20200728.1
 backcall==0.2.0
 base58==2.0.1
 bleach==3.2.1
 blinker==1.4
+Boruta==0.3
 boto3==1.15.1
 botocore==1.18.1
 cachetools==4.1.1
