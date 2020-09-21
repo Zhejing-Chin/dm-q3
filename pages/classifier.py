@@ -21,7 +21,7 @@ def write():
 	with st.spinner("Loading classifier ..."):
 		# ast.shared.components.title_awesome("- Classification")
 		st.title('Classification')
-		st.info('This page is for you to checkout the training resukt of each classifier!')
+		st.info('This page is for you to checkout the training result of each classifier!')
 
 		'''
 		### Top K features based on RFECV
