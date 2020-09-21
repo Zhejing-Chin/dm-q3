@@ -16,7 +16,6 @@ def write():
 		'''
 		### Clustering
 		'''
-		import cv2
 		import seaborn as sns
 	
 		from sklearn.preprocessing import MinMaxScaler
