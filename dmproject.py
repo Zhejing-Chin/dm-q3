@@ -4,23 +4,22 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import awesome_streamlit as ast
-import eda
-import arm
-import cluster
-import classifier
-import fs
-import predict
+import pages.eda
+import pages.arm
+import pages.cluster
+import pages.classifier
+import pages.fs
+import pages.predict
 
 ast.core.services.other.set_logging_format()
 
 PAGES = {
-    "Exploratory Data Analysis": eda,
-    "Association Rules Mining": arm,
-    "Clustering": cluster,
-    "Feature Selection": fs,
-    "Classification": classifier,
-    "Prediction": predict,
-
+	"Prediction": pages.predict,
+    "Exploratory Data Analysis": pages.eda,
+    "Association Rules Mining": pages.arm,
+    "Clustering": pages.cluster,
+    "Feature Selection": pages.fs,
+    "Classification": pages.classifier,
 }
 
 
