@@ -11,7 +11,7 @@ def write():
 		# ast.shared.components.title_awesome("- Prediction")
 
 		st.title('Prediction')
-		st.info('This page is for you to make prediction')
+		st.info('Will the bank loan be accepted or declined?...')
 
 
 		X_fs = pd.read_csv('dataset/SelectedFeatures_dataframe.csv')
