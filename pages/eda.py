@@ -19,6 +19,12 @@ def write():
 		### Read Data - Bank
 
 		'''
+		
+		st.write("""
+			## Bank data
+			""")
+
+		
 		st.info('The data')
 		bank = pd.read_csv('dataset/Bank_CS.csv')
 		st.dataframe(bank)
